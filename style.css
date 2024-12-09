@@ -32,14 +32,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #007aff; /* Warna biru yang lembut */
+    color: #ff3b30; /* Warna merah cerah */
     text-decoration: none;
     font-weight: 500; /* Font weight yang lebih ringan */
     transition: color 0.3s; /* Transisi halus untuk warna */
 }
 
 nav ul li a:hover {
-    color: #0051a8; /* Warna saat hover */
+    color: #d00000; /* Warna merah lebih gelap saat hover */
 }
 
 main {
@@ -52,7 +52,7 @@ section {
 
 h2 {
     color: #333; /* Warna judul yang lebih gelap */
-    border-bottom: 2px solid #007aff; /* Garis bawah biru */
+    border-bottom: 2px solid #ff3b30; /* Garis bawah merah cerah */
     padding-bottom: 10px;
     font-weight: 600; /* Font weight yang lebih tebal */
 }
@@ -72,7 +72,7 @@ article:hover {
 }
 
 article h3 {
-    color: #007aff; /* Warna sub-judul biru */
+    color: #ff3b30; /* Warna sub-judul merah cerah */
     font-weight: 500; /* Font weight yang lebih ringan */
 }
 
@@ -89,7 +89,7 @@ a {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #007aff; /* Warna tombol biru */
+    background-color: #ff3b30; /* Warna tombol merah cerah */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -97,7 +97,7 @@ a {
 }
 
 a:hover {
-    background-color: #0051a8; /* Warna tombol saat hover */
+    background-color: #d00000; /* Warna tombol saat hover */
     transform: scale(1.05); /* Efek zoom saat hover */
 }
 
