@@ -1,0 +1,526 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Font yang bersih dan modern */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f7; /* Warna latar belakang yang terang */
+    color: #333;
+}
+
+header {
+    background: #ffffff; /* Latar belakang putih untuk header */
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 600; /* Font weight yang lebih tebal */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #007aff; /* Warna biru yang lembut */
+    text-decoration: none;
+    font-weight: 500; /* Font weight yang lebih ringan */
+    transition: color 0.3s; /* Transisi halus untuk warna */
+}
+
+nav ul li a:hover {
+    color: #0051a8; /* Warna saat hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333; /* Warna judul yang lebih gelap */
+    border-bottom: 2px solid #007aff; /* Garis bawah biru */
+    padding-bottom: 10px;
+    font-weight: 600; /* Font weight yang lebih tebal */
+}
+
+article {
+    background: white;
+    border-radius: 10px; /* Sudut yang lebih bulat */
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih halus */
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Transisi halus */
+}
+
+article:hover {
+    transform: translateY(-5px); /* Efek hover yang lebih halus */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Bayangan lebih dalam saat hover */
+}
+
+article h3 {
+    color: #007aff; /* Warna sub-judul biru */
+    font-weight: 500; /* Font weight yang lebih ringan */
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 10px; /* Sudut yang lebih bulat */
+}
+
+article p {
+    margin: 10px 0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007aff; /* Warna tombol biru */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Transisi halus */
+}
+
+a:hover {
+    background-color: #0051a8; /* Warna tombol saat hover */
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #f5f5f7; /* Latar belakang footer yang sama dengan body */
+    color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+ margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    article {
+        padding: 15px; /* Mengurangi padding untuk tampilan mobile */
+    }
+
+    a {
+        padding: 8px 12px; /* Mengurangi ukuran tombol untuk tampilan mobile */
+    }
+} ```css
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Font yang bersih dan modern */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f7; /* Warna latar belakang yang terang */
+    color: #333;
+}
+
+header {
+    background: #ffffff; /* Latar belakang putih untuk header */
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 600; /* Font weight yang lebih tebal */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #007aff; /* Warna biru yang lembut */
+    text-decoration: none;
+    font-weight: 500; /* Font weight yang lebih ringan */
+    transition: color 0.3s; /* Transisi halus untuk warna */
+}
+
+nav ul li a:hover {
+    color: #0051a8; /* Warna saat hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333; /* Warna judul yang lebih gelap */
+    border-bottom: 2px solid #007aff; /* Garis bawah biru */
+    padding-bottom: 10px;
+    font-weight: 600; /* Font weight yang lebih tebal */
+}
+
+article {
+    background: white;
+    border-radius: 10px; /* Sudut yang lebih bulat */
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih halus */
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Transisi halus */
+}
+
+article:hover {
+    transform: translateY(-5px); /* Efek hover yang lebih halus */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Bayangan lebih dalam saat hover */
+}
+
+article h3 {
+    color: #007aff; /* Warna sub-judul biru */
+    font-weight: 500; /* Font weight yang lebih ringan */
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 10px; /* Sudut yang lebih bulat */
+}
+
+article p {
+    margin: 10px 0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007aff; /* Warna tombol biru */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Transisi halus */
+}
+
+a:hover {
+    background-color: #0051a8; /* Warna tombol saat hover */
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #f5f5f7; /* Latar belakang footer yang sama dengan body */
+    color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    article {
+        padding: 15px; /* Mengurangi padding untuk tampilan mobile */
+    }
+
+    a {
+        padding: 8px 12px; /* Mengurangi ukuran tombol untuk tampilan mobile */
+    }
+}
+``` ```css
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Font yang bersih dan modern */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f7; /* Warna latar belakang yang terang */
+    color: #333;
+}
+
+header {
+    background: #ffffff; /* Latar belakang putih untuk header */
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 600; /* Font weight yang lebih tebal */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #007aff; /* Warna biru yang lembut */
+    text-decoration: none;
+    font-weight: 500; /* Font weight yang lebih ringan */
+    transition: color 0.3s; /* Transisi halus untuk warna */
+}
+
+nav ul li a:hover {
+    color: #0051a8; /* Warna saat hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333; /* Warna judul yang lebih gelap */
+    border-bottom: 2px solid #007aff; /* Garis bawah biru */
+    padding-bottom: 10px;
+    font-weight: 600; /* Font weight yang lebih tebal */
+}
+
+article {
+    background: white;
+    border-radius: 10px; /* Sudut yang lebih bulat */
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih halus */
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Transisi halus */
+}
+
+article:hover {
+    transform: translateY(-5px); /* Efek hover yang lebih halus */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Bayangan lebih dalam saat hover */
+}
+
+article h3 {
+    color: #007aff; /* Warna sub-judul biru */
+    font-weight: 500; /* Font weight yang lebih ringan */
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 10px; /* Sudut yang lebih bulat */
+}
+
+article p {
+    margin: 10px 0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007aff; /* Warna tombol biru */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Transisi halus */
+}
+
+a:hover {
+    background-color: #0051a8; /* Warna tombol saat hover */
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #f5f5f7; /* Latar belakang footer yang sama dengan body */
+    color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    article {
+        padding: 15px; /* Mengurangi padding untuk tampilan mobile */
+    }
+
+    a {
+        padding: 8px 12px; /* Mengurangi ukuran tombol untuk tampilan mobile */
+    }
+}
+``` ```css
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Font yang bersih dan modern */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f7; /* Warna latar belakang yang terang */
+    color: #333;
+}
+
+header {
+    background: #ffffff; /* Latar belakang putih untuk header */
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 600; /* Font weight yang lebih tebal */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #007aff; /* Warna biru yang lembut */
+    text-decoration: none;
+    font-weight: 500; /* Font weight yang lebih ringan */
+    transition: color 0.3s; /* Transisi halus untuk warna */
+}
+
+nav ul li a:hover {
+    color: #0051a8; /* Warna saat hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333; /* Warna judul yang lebih gelap */
+    border-bottom: 2px solid #007aff; /* Garis bawah biru */
+    padding-bottom: 10px;
+    font-weight: 600; /* Font weight yang lebih tebal */
+}
+
+article {
+    background: white;
+    border-radius: 10px; /* Sudut yang lebih bulat */
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih halus */
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Transisi halus */
+}
+
+article:hover {
+    transform: translateY(-5px); /* Efek hover yang lebih halus */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Bayangan lebih dalam saat hover */
+}
+
+article h3 {
+    color: #007aff; /* Warna sub-judul biru */
+    font-weight: 500; /* Font weight yang lebih ringan */
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 10px; /* Sudut yang lebih bulat */
+}
+
+article p {
+    margin: 10px 0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007aff; /* Warna tombol biru */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Transisi halus */
+}
+
+a:hover {
+    background-color: #0051a8; /* Warna tombol saat hover */
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #f5f5f7; /* Latar belakang footer yang sama dengan body */
+    color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    article {
+        padding: 15px; /* Mengurangi padding untuk tampilan mobile */
+    }
+
+    a {
+        padding: 8px 12px; /* Mengurangi ukuran tombol untuk tampilan mobile */
+    }
+}
